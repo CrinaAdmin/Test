@@ -2,8 +2,8 @@
   "properties": {
     "activities": [
       {
-        "name": "Copy job1",
-        "type": "InvokeCopyJob",
+        "name": "Copy data1",
+        "type": "Copy",
         "state": "Inactive",
         "onInactiveMarkAs": "Succeeded",
         "dependsOn": [],
@@ -15,8 +15,7 @@
           "secureInput": false
         },
         "typeProperties": {
-          "workspaceId": "0a7c51c7-418d-43ba-b214-0deef34c585f",
-          "operationType": "RunCopyJob"
+          "enableStaging": false
         }
       }
     ]

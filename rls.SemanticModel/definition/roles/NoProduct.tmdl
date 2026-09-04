@@ -1,0 +1,7 @@
+role NoProduct
+	modelPermission: read
+
+	tablePermission financials = [Product] == "Montana"
+
+	annotation PBI_Id = 2da5af4f344f4ea58d5e3d557ea64c13
+

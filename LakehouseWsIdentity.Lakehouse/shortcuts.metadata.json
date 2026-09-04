@@ -1,0 +1,14 @@
+[
+  {
+    "name": "blobtest",
+    "path": "/Files",
+    "target": {
+      "type": "AdlsGen2",
+      "adlsGen2": {
+        "connectionId": "647170ec-4efb-413a-9dc4-8a69e16604d4",
+        "location": "https://blobstorage27793.dfs.core.windows.net",
+        "subpath": "/blobtest"
+      }
+    }
+  }
+]
